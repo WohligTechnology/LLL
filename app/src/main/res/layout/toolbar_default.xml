@@ -1,0 +1,17 @@
+<android.support.v7.widget.Toolbar
+    style="@style/ToolBarStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lllPrimaryColor"
+    android:minHeight="@dimen/abc_action_bar_default_height_material">
+
+    <ImageView
+        android:id="@+id/toolbar_image"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo"/>
+
+</android.support.v7.widget.Toolbar>
